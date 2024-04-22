@@ -26,13 +26,13 @@ The dataset used in this project is sourced from `telecom_churn.csv`. It contain
 1. **Data Preprocessing**: The dataset is preprocessed by handling missing values, encoding categorical variables, and scaling numerical features.
 
 2. **Exploratory Data Analysis (EDA)**: Exploratory data analysis is conducted to gain insights into the dataset and understand the factors influencing customer churn. Visualizations such as histograms, pair plots, and categorical plots are utilized
-- Histograms: Visualize the distribution of various features in the dataset.
-- Pair Plot: Explore pairwise relationships between features, differentiated by churn status.
-- Pie Chart: Illustrate the overall churn ratio in the dataset.
-- Categorical Plots: Analyze the relationship between churn status and categorical features such as contract renewal, data plan, and customer service calls.
-- Scatter Plots: Investigate relationships between numerical features, segmented by churn status and other criteria.
-- Customer Segmentation: Divide customers into segments based on usage patterns and analyze churn behavior within each segment.
-- Box Plots: Compare the distribution of numerical features between churned and retained customers.
+    - Histograms: Visualize the distribution of various features in the dataset.
+    - Pair Plot: Explore pairwise relationships between features, differentiated by churn status.
+    - Pie Chart: Illustrate the overall churn ratio in the dataset.
+    - Categorical Plots: Analyze the relationship between churn status and categorical features such as contract renewal, data plan, and customer service calls.
+    - Scatter Plots: Investigate relationships between numerical features, segmented by churn status and other criteria.
+    - Customer Segmentation: Divide customers into segments based on usage patterns and analyze churn behavior within each segment.
+    - Box Plots: Compare the distribution of numerical features between churned and retained customers.
 
 3. **Random Under-sampling**: Since the dataset is imbalanced, random under-sampling is performed to balance the classes.
 
